@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(ENUMS ${ENUMS}
+		${SOURCES}
+		${HEADERS}
+PARENT_SCOPE)

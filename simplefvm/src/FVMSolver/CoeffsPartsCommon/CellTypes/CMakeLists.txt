@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(CELL_TYPES ${CELL_TYPES}
+	${SOURCES}
+	${HEADERS}
+PARENT_SCOPE)

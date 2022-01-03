@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(FILE_CHECKER ${FILE_CHECKER}
+	${SOURCES} 
+	${HEADERS}
+PARENT_SCOPE)

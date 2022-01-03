@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(RHS_PRESSURE ${RHS_PRESSURE}
+	${SOURCES}
+	${HEADERS}
+PARENT_SCOPE)

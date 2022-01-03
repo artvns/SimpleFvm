@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(SIMPLE_SAVER ${SIMPLE_SAVER}
+	${SOURCES}
+	${HEADERS}
+PARENT_SCOPE)

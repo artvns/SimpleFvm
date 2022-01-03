@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(STATE_FLAGS ${STATE_FLAGS}
+	${SOURCES} 
+	${HEADERS}
+PARENT_SCOPE)

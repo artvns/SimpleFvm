@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(MATRIX_BUILDER ${MATRIX_BUILDER}
+    ${SOURCES}
+    ${HEADERS}
+PARENT_SCOPE)

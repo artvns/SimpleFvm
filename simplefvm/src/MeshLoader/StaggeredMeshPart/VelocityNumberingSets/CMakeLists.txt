@@ -1,0 +1,8 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(VELOCITY_NUMBERING_SETS ${VELOCITY_NUMBERING_SETS}
+        ${SOURCES} 
+        ${HEADERS}
+
+PARENT_SCOPE)

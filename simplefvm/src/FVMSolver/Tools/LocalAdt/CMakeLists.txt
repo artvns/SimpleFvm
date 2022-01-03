@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(LOCAL_ADT ${LOCAL_ADT}
+	${SOURCES} 
+	${HEADERS}
+PARENT_SCOPE)

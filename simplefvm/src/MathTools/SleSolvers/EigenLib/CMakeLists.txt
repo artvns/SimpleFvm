@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(EIGEN_LIB ${EIGEN_LIB}
+    ${SOURCES}
+	${HEADERS}
+PARENT_SCOPE)

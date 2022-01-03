@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(SOLVER_FIELDS ${SOLVER_FIELDS}
+	${SOURCES} 
+	${HEADERS}
+PARENT_SCOPE)

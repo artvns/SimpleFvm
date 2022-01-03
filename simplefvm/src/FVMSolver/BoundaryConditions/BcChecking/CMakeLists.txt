@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(BC_CHECKING ${BC_CHECKING}
+	${SOURCES} 
+	${HEADERS}
+PARENT_SCOPE)

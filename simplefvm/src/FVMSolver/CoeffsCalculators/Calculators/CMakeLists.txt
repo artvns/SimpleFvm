@@ -1,0 +1,7 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+set(CALCULATORS ${CALCULATORS} 
+	${SOURCES} 
+	${HEADERS}
+PARENT_SCOPE)

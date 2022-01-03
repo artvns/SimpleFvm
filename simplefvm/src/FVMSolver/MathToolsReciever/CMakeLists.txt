@@ -1,0 +1,10 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+add_subdirectory(SleSolverTool)
+
+set(MATH_TOOLS_RECIEVER ${MATH_TOOLS_RECIEVER}
+	${SOURCES}
+	${HEADERS}
+	${SLE_SOLVER_TOOL}
+PARENT_SCOPE)

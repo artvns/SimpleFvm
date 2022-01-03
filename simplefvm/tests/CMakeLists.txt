@@ -1,0 +1,3 @@
+add_subdirectory(FVMSolver_Test)
+add_subdirectory(IntegrationTests)
+add_subdirectory(SingleIntegrationTest)

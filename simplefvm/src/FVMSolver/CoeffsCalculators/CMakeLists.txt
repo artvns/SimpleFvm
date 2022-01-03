@@ -1,0 +1,10 @@
+file(GLOB SOURCES "*.cpp")
+file(GLOB HEADERS "*.h")
+
+add_subdirectory(Calculators)
+
+set(COEFFS_CALCULATORS ${COEFFS_CALCULATORS}
+	${SOURCES} 
+	${HEADERS}
+	${CALCULATORS}
+PARENT_SCOPE)

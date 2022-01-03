@@ -1,0 +1,23 @@
+#ifndef SIMPLEFVM_LIBQUADMESHSOLVER_H
+#define SIMPLEFVM_LIBQUADMESHSOLVER_H
+
+#include "public/QmSolver.h"
+#include "public/AlgorithmChooserModule.h"
+#include "public/FluidPropsModule.h"
+#include "public/SchemeChooserModule.h"
+#include "public/SleSolverChooserModule.h"
+#include "public/PartTypeChooserModule.h"
+#include "public/ResidualsSettingsModule.h"
+
+
+namespace sfvm {
+    using mainsolver::QmSolver;
+    using mainsolver::AlgorithmChooserModule;
+    using mainsolver::FluidPropsModule;
+    using mainsolver::SchemeChooserModule;
+    using mainsolver::SleSolverChooserModule;
+    using mainsolver::PartTypeChooserModule;
+    using mainsolver::ResidualsSettingsModule;
+}
+
+#endif // SIMPLEFVM_LIBQUADMESHSOLVER_H
