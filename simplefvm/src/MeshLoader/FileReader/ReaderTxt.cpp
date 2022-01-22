@@ -41,10 +41,10 @@ void ReaderTxt::load(std::string fileName, BaseMatrix& baseMatrix) {
     while (!file.eof()) {
         std::getline(file, strLine_);
 
-        lineCheck_.checkLine(strLine_, rowNum_);
-
         strLine_.erase(std::remove(strLine_.begin(), strLine_.end(), '\n'), strLine_.end());
         strLine_.erase(std::remove(strLine_.begin(), strLine_.end(), '\r'), strLine_.end());
+
+        lineCheck_.checkLine(strLine_, rowNum_);
 
         for (size_t j = 0; j < maxColumns_; j++) {
             baseMatrix.setValue(rowNum_, j, strLine_.at(j));
